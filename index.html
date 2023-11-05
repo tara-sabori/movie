@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <a href="#">
+            <h1>MOVIES</h1>
+        </a>
+        <section class="search">
+            <input type="text" onkeyup="searchResult(this);" autocomplete="off" placeholder="search movie">
+            <section class="search-list search-list-hide">
+
+            </section>
+        </section>
+    </header>
+    <section class="app">
+        <main>
+            <section class="film-container">
+            </section>
+
+            <section class="pos-rel">
+                <button class="buttn"><a href="?page=1"> first page</a></button>
+                <ul class="pagination">
+                </ul>
+            </section>
+
+        </main>
+    </section>
+
+    <footer>
+        Made With ❤ For You
+    </footer>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
